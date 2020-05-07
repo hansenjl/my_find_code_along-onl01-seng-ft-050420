@@ -5,7 +5,7 @@ require 'pry'
 def my_find(collection)
   index = 0 
   while index < collection.length 
-     yield(collection[index])   # 1.even?   2.even?   3.even?
+     yield(collection[index])   # false true   false
      index += 1   
   end
 end
